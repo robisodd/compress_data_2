@@ -1,0 +1,34 @@
+{
+    "author": "robisodd",
+    "dependencies": {
+        "jigsaw": "https://builds.cloudpebble.net/a9621817-ed1e-4517-93b1-39efee079916/package.tar.gz",
+        "message-queue-pebble": "^1.0.0",
+        "zlib": "https://builds.cloudpebble.net/2a3540fb-d4e6-4f5f-883b-28f95cd90f2c/package.tar.gz"
+    },
+    "keywords": [],
+    "name": "compress-data-v0.6",
+    "pebble": {
+        "displayName": "Compress Data v0.6",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "MESSAGE",
+            "COMMAND"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "b61e7133-35ff-4ad1-9d06-67431064aaf0",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.6.0"
+}
